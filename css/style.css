@@ -1,0 +1,552 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  /* border: 1px solid #000; */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.help {
+  width: 100%;
+  height: 40px;
+  margin-top: 2px;
+  background-color: #436850;
+  border: 1px solid #000;
+  display: flex;
+  flex-direction: row;
+}
+.help .contact {
+  display: flex;
+  flex-direction: row;
+  flex-basis: 75%;
+}
+.help .contact h4 {
+  font-size: 18px;
+  color: white;
+  display: flex;
+  padding: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.icons {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  flex-basis: 20%;
+}
+.icons .b1 {
+  padding-left: 20px;
+  color: white;
+  font-size: 1.2em;
+  transition: 0.5s;
+}
+.icons .b1:hover {
+  color: white;
+  transform: translateY(-10px);
+}
+.logo-menu-div {
+  width: 100%;
+  height: 65px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px solid #000;
+  background-color: #436850;
+}
+.logo-menu-div .logo label {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+  font-size: 2em;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  color: white;
+}
+.menu ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  margin-right: 40px;
+}
+.menu ul li {
+  list-style-type: none;
+  padding: 10px;
+}
+.menu ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 1.2em;
+  padding: 10px;
+}
+.menu ul li:hover {
+  background-color: #adbc9f;
+  color: black;
+}
+.menu ul li a:hover {
+  color: black;
+}
+
+.carousel-item {
+  width: 100%;
+  height: 500px;
+  margin-top: 20px;
+}
+.carousel-item .img1 {
+  width: 600px;
+  height: 400px;
+  margin-left: 350px;
+}
+.carousel-item .img2 {
+  width: 600px;
+  height: 370px;
+  margin-left: 400px;
+}
+.carousel-item .img3 {
+  width: 500px;
+  height: 400px;
+  margin-left: 400px;
+}
+.carousel-caption h5 {
+  font-size: 27px;
+  font-weight: bold;
+  color: black;
+}
+.carousel-caption p {
+  font-size: 20px;
+  color: black;
+}
+.box {
+  margin-top: 30px;
+  width: 100%;
+  height: 430px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.box .b1 {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 27%;
+}
+.box1 {
+  margin-top: 30px;
+  width: 100%;
+  height: 430px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.box1 .b1 {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 27%;
+}
+.b1 .text-heading {
+  width: 100%;
+  min-height: 30px;
+  /* background-color: #436850; */
+}
+.text-heading h3 {
+  background-color: #436850;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 1.2em;
+  text-align: center;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+.img-div img {
+  height: 310px;
+  width: 350px;
+}
+/* footer css started */
+.footercon {
+  width: 100%;
+  min-height: 200px;
+}
+.row1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+ul {
+  list-style-type: none;
+}
+.footer {
+  background-color: #24262b;
+  padding: 50px 0;
+}
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+}
+.footer-col h4 {
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 1.1em;
+  margin-bottom: 35px;
+  margin-left: 30px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col h4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.footer-col ul li a {
+  font-size: 1em;
+  text-transform: capitalize;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 100;
+  display: block;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+.footer-col ul li a:hover {
+  color: #fff;
+  padding-left: 8px;
+}
+.footer-col .social-links {
+  margin-left: 30px;
+}
+.footer-col .social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+.footer-col .social-links a:hover {
+  color: #24262b;
+  background-color: #fff;
+  /* text-align: center; */
+}
+@media only screen and (max-width: 990px) {
+  .logo-menu-div .logo label {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-right: 20vw;
+  }
+  .logo-menu-div {
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+  }
+  .menu ul {
+    display: block;
+  }
+  .menu ul li {
+    padding: 5px;
+    text-align: center;
+  }
+  .logo-menu-div .logo label {
+    margin-left: 20vw;
+    min-width: 150px;
+    font-size: 1.6em;
+  }
+  .box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 390px;
+  }
+  .box .b1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-basis: 50%;
+  }
+  .box1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 810px;
+  }
+  .box1 .b1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-basis: 50%;
+  }
+  .btn {
+    height: 40px;
+    width: 350px;
+  }
+  .text-heading h3 {
+    margin-top: 30px;
+    width: 100%;
+  }
+  .footer {
+    margin-top: 420px;
+  }
+}
+.prod-div
+{
+    width: 100%;
+    min-height: 200px;
+    /* border: 1px solid #000; */
+    margin-top: 10px;
+    display: flex;  
+}
+.prod-div .prod-img{
+   flex-basis: 30%;
+   margin-left: 20px;
+   height: 330px;
+}
+.prod-div .prod-img img
+{
+    width: 90%;
+    height: 90%;
+    margin: 0 15px 0 0;
+    z-index: 1;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+.prod-div .prod-img img:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.prod-div .prod-heading{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 66%;
+}
+
+.prod-div .prod-heading h2{
+    font-size: 1.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+.prod-div .prod-heading .sub-item h4{
+   font-weight: bold;
+   font-size: 1em;
+   position: relative;
+}
+.prod-div .prod-heading .sub-item p
+{
+    padding: 10px;
+    margin-top: 10px;
+}
+.prod-div .prod-heading .sub-item h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #E91E63;
+    height: 5px;
+    box-sizing: border-box;
+    width: 200px;
+
+}
+.prod-div .prod-heading .other-info{
+    width: 100%;
+    border: 1px solid #000;
+    
+}
+.prod-div .prod-heading .other-info h4{
+    position: relative;
+    padding: 10px;
+    font-weight: bold;
+   font-size: 1em;
+
+}
+.prod-div .prod-heading .other-info h4::before{
+    content: '';
+    position: absolute;
+    left: 10px;
+    bottom: -10px;
+    background-color: #E91E63;
+    height: 5px;
+    box-sizing: border-box;
+    width: 200px;
+
+}
+.accr
+{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.prod-div1
+{
+    width: 100%;
+    min-height: 200px;
+    border: 1px solid #000;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.prod-div1 .img-div
+{
+    min-width: 300px;
+    height: 300px;
+    
+}
+.prod-div1 .img-div img{
+    transition: 0.3s all ease;
+    -webkit-transition: 0.3s all ease;
+    -moz-transition: 0.3s all ease;
+    -ms-transition: 0.3s all ease;
+    -o-transition: 0.3s all ease;
+}
+.prod-div1 .img-div img:hover{
+    transform: scale(1.8);
+    -webkit-transform: scale(1.8);
+    -moz-transform: scale(1.8);
+    -ms-transform: scale(1.8);
+    -o-transform: scale(1.8);
+}
+.prod-head{
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.prod-head h2{
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+.prod-head .about-prod{
+
+    width: 100%;
+    display: flex;
+}
+.prod-head .about-prod h4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    position: relative;
+    margin-bottom: 30px;
+}
+.prod-head .about-prod h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #E91E63;
+    height: 4px;
+    box-sizing: border-box;
+    width: 200px;
+
+}
+.about-desc img
+{
+    width: 28px;
+    height: 28px;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+.other-info1
+{
+    width: 100%;
+    min-height: 200px;
+    border: 1px solid #000;
+}
+ 
+.other-info1 h4
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    position: relative;
+    margin-bottom: 30px;
+}
+.other-info1 h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #E91E63;
+    height: 4px;
+    box-sizing: border-box;
+    width: 200px;
+
+}
+@media only screen and (max-width: 768px) {
+  .carousel-item .img1 {
+    width: 400px;
+    margin-left: 10vw;
+  }
+  .carousel-item .img2 {
+    width: 350px;
+    margin-left: 20vw;
+  }
+  .carousel-item .img3 {
+    width: 500px;
+    margin-left: 0%;
+  }
+  .carousel-item {
+    height: 550px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .carousel-item {
+    height: 490px;
+  }
+  .carousel-item .img1 {
+    width: 270px;
+    height: 300px;
+    margin-left: 10vw;
+  }
+  .carousel-item .img2 {
+    width: 250px;
+    height: 300px;
+    margin-left: 20vw;
+  }
+  .carousel-item .img3 {
+    width: 350px;
+    height: 300px;
+    margin-left: 0%;
+  }
+  .footer {
+    background-color: #24262b;
+    padding: 10px 0;
+  }
+  .footer-col {
+    width: 50%;
+    padding: 0 10px;
+  }
+  .prod-div{
+    flex-direction: column;
+   }
+   .prod-div1
+   {
+    flex-direction: column;
+   }
+}
